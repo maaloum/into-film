@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@maaloum](https://github.com/maaloum)
 - LinkedIn: [Maaloum Ely Cheick](https://www.linkedin.com/in/ely-cheikh-maaloum-075a79135/)
 
-👤 **  Avatar
+👤 **
 👨‍💻
 Emmanuel Simasiku **
 
