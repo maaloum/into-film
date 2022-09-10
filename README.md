@@ -17,10 +17,12 @@
 
 - Here is the [link]() to our Zoom video presentation
 ## Website Mockup 📱 💻 🖥️
-![screenshot]()
+![screenshot](./src/images/screen_shoot1.png)
+![screenshot](./src/images/screen_shoot2.png)
+![screenshot](./src/images/screen_shoot3.png)
 ## Live Demo
 
-:smile: enjoy watching [TVMAZE]()
+:smile: enjoy watching [TVMAZE](https://maaloum.github.io/into-film/dist/)
 
 ## Getting Started
 
