@@ -15,14 +15,21 @@
 
 ## Project Documentation
 
-- Here is the [link]() to our Zoom video presentation
+- Here is the [link](https://drive.google.com/drive/folders/17o3iaSsckB2VS-Q7n8N79L5p4VNUMSq4?usp=sharing) to our Zoom video presentation
+
 ## Website Mockup 📱 💻 🖥️
 ![screenshot](./src/images/screen_shoot1.png)
 ![screenshot](./src/images/screen_shoot2.png)
 ![screenshot](./src/images/screen_shoot3.png)
+
+## Deployment
+- The live version of this web application is deployed here:
+- Link:   https://mukumbuta.github.io/Module-Two-Capstone-Project/
+
 ## Live Demo
 
-:smile: enjoy watching [TVMAZE](https://maaloum.github.io/into-film/dist/)
+
+enjoy watching [TVMAZE](https://maaloum.github.io/into-film/dist/)
 
 ## Getting Started
 

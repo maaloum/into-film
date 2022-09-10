@@ -5,7 +5,7 @@ import getComments from './getComment.js';
 const renderMovies = (movies) => {
   movies.forEach((movie) => {
     const movieDetails = document.querySelector('.row');
-    movieDetails.innerHTML += `<div class="movie-details">
+    movieDetails.innerHTML += `<div id="like-movie${movie.id}" class="movie-details">
                                         <div class="col">
                                             <img class="movie-poster" src="${movie.image.original}" alt="Movie Poster">
                                         </div>
@@ -14,9 +14,9 @@ const renderMovies = (movies) => {
                                                 <p>${movie.name}</p>
                                             </div>
                                             <div class="col movies-likes">
-                                                <img src="${likeIcon}" class="like-icon" alt="Red Heart Icon">
-                                                <p class="likes-holder">${movie.rating.average}</p>
-                                            </div>
+                                                <img src="${likeIcon}" id="like-movie${movie.id}" class="like-icon" alt="Red Heart Icon">
+                                                <p class="likes-holder" id="likes-holder${movie.id}">0 likes</p>
+                                            </div> 
                                         </div>
                                         <div class="comments">
                                             <button type="button" class="btn btn-secondary comment-btn" id = "${movie.id}"> Comments</button>
@@ -32,10 +32,4 @@ const renderMovies = (movies) => {
   });
 };
 
-const totalMovies = (movies) => {
-  const moviesCount = movies.length;
-  const displayTotalMovies = document.getElementById('total-movies');
-  displayTotalMovies.innerText = `Movies (${moviesCount})`;
-};
-
-export { totalMovies, renderMovies };
+export default renderMovies;
